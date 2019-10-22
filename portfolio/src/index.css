@@ -1,0 +1,30 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: 'Gotham-Medium';
+	src: url(Gotham-Medium.otf);
+  }
+
+  @font-face {
+	font-family: 'Gotham-Light';
+	src: url(Gotham-Light.otf);
+  }
+
+  
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #2C00B7;
+	background-repeat: no-repeat;
+	background-image: 
+	url(assets/background.svg);
+	height: 100%;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	overflow: hidden;
+	}
